@@ -478,7 +478,7 @@ Round.prototype.checkPrevStates = function(action){
 	console.log(this.estadosPrevios)
 	return aux;*/
 }
-
+//cambio el turno de un jugador
 Round.prototype.cambioTurno = function(){
 	this.changeTurn();
 	if ((this.player1.cartasJugadas[0]!= undefined) && (this.player2.cartasJugadas[0]!= undefined) && (this.conCheqTurn[0] == false)){

@@ -16,7 +16,7 @@ var StateMachine = require("../node_modules/javascript-state-machine/state-machi
 Round.prototype.newTrucoFSM = function(estadoactual){
 	var fsm = StateMachine.create({
 	initial: estadoactual == undefined ? 'init' : estadoactual,
-	events: [
+	events:[
 		{ name: 'playcard', from: 'init',                           to: 'primer-carta' },
 		{ name: 'envido',    from: ['init', 'primer-carta'],         to: 'envido' },
 		{ name: 'envido-envido', form: 'envido',    to: 'envido-envido'},
@@ -478,7 +478,7 @@ Round.prototype.checkPrevStates = function(action){
 	console.log(this.estadosPrevios)
 	return aux;*/
 }
-
+//cambio el turno de un jugador
 Round.prototype.cambioTurno = function(){
 	this.changeTurn();
 	if ((this.player1.cartasJugadas[0]!= undefined) && (this.player2.cartasJugadas[0]!= undefined) && (this.conCheqTurn[0] == false)){

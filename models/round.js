@@ -16,7 +16,7 @@ var StateMachine = require("../node_modules/javascript-state-machine/state-machi
 Round.prototype.newTrucoFSM = function(estadoactual){
 	var fsm = StateMachine.create({
 	initial: estadoactual == undefined ? 'init' : estadoactual,
-	events:[
+	events: [
 		{ name: 'playcard', from: 'init',                           to: 'primer-carta' },
 		{ name: 'envido',    from: ['init', 'primer-carta'],         to: 'envido' },
 		{ name: 'envido-envido', form: 'envido',    to: 'envido-envido'},

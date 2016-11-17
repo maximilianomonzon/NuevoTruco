@@ -1,0 +1,66 @@
+body {
+	background-image: url("./Imagenes/resize-img.php.jpeg");
+	background-repeat: no-repeat;
+	background-size: 1250px
+	background-position:center; 
+
+
+
+
+}
+.mesa{
+	background-image: url("./Imagenes/pano.jpg");
+	background-repeat: no-repeat;
+	background-size: 250px
+
+	}
+
+
+	.button {
+ position: center;
+
+}
+
+
+.p{
+font-family:"carnivalee freakshow", serif; 
+font-size:30px;
+color: red;
+}
+
+.from{
+	background-position: center;
+
+}
+
+    .h3{
+	font-family:"carnivalee freakshow", serif; 
+font-size:30px; 
+color: white;
+}
+
+    .h2{
+	font-family:"carnivalee freakshow", serif; 
+font-size:30px; 
+color: white;
+}
+
+    .p1{
+	font-family:"carnivalee freakshow", serif; 
+font-size:30px; 
+color: white;
+}
+
+   .img {
+  background:transparent url(images/bart.gif) center no-repeat;
+  }
+
+	
+}
+
+.h1{
+	font-family:"carnivalee freakshow", serif; 
+font-size:30px; 
+color: white;
+}
+

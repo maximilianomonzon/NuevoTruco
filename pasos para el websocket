@@ -1,0 +1,6 @@
+. colocar req session en index.js para identificar usuario
+. reconocerlo y ver de quien es el turno mediante el id de la sesion. 
+una ves obtenido ello se empieza a jugar
+tratar de hacer un ejemplo con un jugador con dos cartas
+el socket.io solo lo vamos a usar al ultimo para automatizar el f5 
+. 

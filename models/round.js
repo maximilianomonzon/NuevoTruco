@@ -31,7 +31,7 @@ Round.prototype.newTrucoFSM = function(estadoactual){
 	]
 	});
 	return fsm;
-}
+ }
 
 function Round(game, turn){
 	//- ESTO HABRÍA QUE MEJORARLO PORQUE ENTRA EN BUCLE :( ---	
